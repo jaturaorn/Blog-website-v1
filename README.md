@@ -1,1 +1,1 @@
-# Blog-website-v1 by using NODE, Express , Ejs , HTML , CSS(pure)
+# Blog-website-v1 by using Node.js, Express.js, Ejs, HTML, CSS(pure)
