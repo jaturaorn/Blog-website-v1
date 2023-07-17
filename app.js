@@ -57,7 +57,7 @@ app.get("/post/:Title", (req, res) => {
         content: post.Post
       });
     }
-  })
+  });
 
   
 });

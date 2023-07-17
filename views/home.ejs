@@ -4,7 +4,11 @@
 
 <% post.forEach(function(post){ %>
     <h1><%= post.Title %></h1>
-    <p><%= post.Post%></p>
+    <p>
+    <%= post.Post.substring(0,100) + "..." %>
+    <a href="/post/<%= post.Title %>" target="_blank" rel="noopener noreferrer">Read more</a>
+    </p>
+    
 <% }) %>
 
 <%- include("partials/footer") -%>
